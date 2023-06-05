@@ -1,0 +1,42 @@
+.reviews_container{
+    display: flex;
+    width: 100%;
+    margin-left: 16pc;
+}
+.new_review{
+    display: flex;
+    flex-direction: column;
+}
+.new_first_review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input_field{
+    margin-top: 40px;
+    border: 1px solid #c1e3ff;
+    color: black;
+    width: 200px;
+}
+.btn_div{
+    margin-top: 50px;
+}
+.btn_div a{
+    margin-left: 150px;
+}
+
+.my_button{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    background-color: #c1e3ff;
+    font-size: 30px;
+    transition: all .4s ease;
+}
+
+.my_button:hover{
+    color: white;
+}

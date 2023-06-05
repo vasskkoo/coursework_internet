@@ -1,0 +1,86 @@
+.register{
+    width: 100%;
+    height: 550px;
+}
+
+.main_text{
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.item_div{
+    display: flex;
+}
+.title_div{
+    width: 25%;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+}
+.input_field{
+    /*margin-left: 30px;*/
+
+    border: 1px solid #e4f3ff;
+    background-color: #c1e3ff;
+    width: 200px;
+    height: 30px;
+    color: black;
+}
+
+.error_message{
+    height: 20px;
+    text-align: center;
+    color: red;
+}
+
+.line{
+    margin: 0 auto;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+}
+
+.my_button{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    background-color: #c1e3ff;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+
+.my_button:hover{
+    background-color: black;
+    color: white;
+}
+
+.input_div{
+    width: 75%;
+    height: 40px;
+    margin-top: 25px;
+}
+
+
+
+.register_form{
+    margin: 0 auto;
+    width: 350px;
+    height: 270px;
+    background-color: #e4f3ff;
+    border-radius: 15%;
+}
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+}
